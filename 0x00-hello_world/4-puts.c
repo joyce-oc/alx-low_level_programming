@@ -1,13 +1,12 @@
 /*
  * File: puzzle.c
- * Description: Prints the message "Programming is like building a multilingual puzzle,"
- *              followed by a new line, using the puts function.
+ * Description: Prints solution 
  */
 
 #include <stdio.h>
 
 /**
- * main - Prints "Programming is like building a multilingual puzzle,followed by a newline."
+ * main - Prints "Programming is like building a multilingual puzzle."
  *
  * Return: Always 0 (Success)
  */
