@@ -1,5 +1,4 @@
 #include <stdlib.h>
-#include <stdio.h> 
 
 /**
  * string_nconcat - Concatenates two strings with the first n bytes of s2.
@@ -43,4 +42,3 @@ concatenated[i + j] = '\0';
 
 return (concatenated);
 }
-
