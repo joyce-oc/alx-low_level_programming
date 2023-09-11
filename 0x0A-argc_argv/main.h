@@ -3,5 +3,6 @@
 
 int main(int argc, char *argv[]);
 int count_arguments(int argc);
+void print_arguments(int argc, char *argv[]);
 
 #endif /* MAIN_H */
