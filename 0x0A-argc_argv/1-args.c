@@ -9,12 +9,14 @@
  */
 int count_arguments(int argc)
 {
-    printf("%d\n", argc - 1); /* Subtract 1 to exclude the program name */
+    printf("%d\n", argc - 1); 
     return (0);
 }
 
 int main(int argc, char *argv[])
 {
+    (void)argv; 
     count_arguments(argc);
     return (0);
 }
+
