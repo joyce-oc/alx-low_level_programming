@@ -2,5 +2,6 @@
 #define MAIN_H
 
 int main(int argc, char *argv[]);
+int count_arguments(int argc);
 
 #endif /* MAIN_H */
