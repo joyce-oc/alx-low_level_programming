@@ -4,12 +4,12 @@
 #include "dog.h"
 
 /**
- * new_dog - Creates a new dog and stores a copy of name and owner
- * @name: Name of the dog
- * @age: Age of the dog
- * @owner: Owner of the dog
+ * new_dog - Creates a new dog and stores a copy of name and owner.
+ * @name: Name of the dog.
+ * @age: Age of the dog.
+ * @owner: Owner of the dog.
  *
- * Return: A pointer to the newly created dog instance, or NULL if it fails
+ * Return: A pointer to the newly created dog instance, or NULL.
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
