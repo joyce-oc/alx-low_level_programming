@@ -39,11 +39,11 @@ void print_all(const char * const format, ...)
                 printf("%s", str);
                 break;
             default:
-                continue; // Ignore unknown formats
+                continue; 
         }
 
         if (format[i])
-            printf(", "); // Print a comma and space unless it's the last format
+            printf(", "); 
     }
 
     va_end(args);
